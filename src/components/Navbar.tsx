@@ -8,7 +8,7 @@ import { Menu, X } from "lucide-react";
 gsap.registerPlugin(ScrollTrigger);
 
 const navLinks = [
-  { label: "Work", href: "#work" },
+  { label: "Work", href: "#selected-work" },
   { label: "About", href: "#about" },
   { label: "Services", href: "#services" },
   { label: "Contact", href: "#contact" },

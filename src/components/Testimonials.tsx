@@ -88,7 +88,7 @@ export default function Testimonials() {
   return (
     <section
       ref={sectionRef}
-      id="work"
+      id="testimonials"
       className="relative bg-onyx py-40 px-8 overflow-hidden"
     >
       {/* Background accent */}
@@ -106,7 +106,7 @@ export default function Testimonials() {
               className="t-reveal font-display text-[clamp(40px,5vw,80px)] leading-[1.0] text-ivory opacity-0"
               style={{ fontWeight: 300, fontStyle: "italic" }}
             >
-              Those who've
+              Those who&rsquo;ve
               <br />
               experienced it
             </h2>
@@ -197,7 +197,6 @@ export default function Testimonials() {
           </p>
           <a
             href="#contact"
-            id="contact"
             className="group inline-flex items-center gap-5 font-mono text-[10px] tracking-[0.35em] uppercase border border-gold/30 text-gold px-10 py-5 hover:bg-gold hover:text-obsidian transition-all duration-500"
           >
             Start a project

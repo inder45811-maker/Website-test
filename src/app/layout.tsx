@@ -15,6 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="bg-obsidian text-platinum antialiased">
+        <div className="grain-overlay" aria-hidden="true" />
         <SmoothScroll>{children}</SmoothScroll>
       </body>
     </html>
